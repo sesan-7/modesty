@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main container */
+  .camera-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Webcam styling */
+  .webcam-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .webcam-container video {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Capture Button */
+  .capture-button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #ff4b2b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .capture-button:hover {
+    background: #ff1c1c;
+  }
+  
+  /* Output messages */
+  .output-message {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Nudity Detected */
+  .nudity-detected {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* No Nudity Detected */
+  .no-nudity {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Image Styling */
+  .image-preview {
+    margin-top: 15px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
